@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Tangerine&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
 h1{
-    font-family: 'Merienda One', cursive;
+    /* font-family: 'Merienda One', cursive; */
     color: white;
 }
 body{
-    background-color: black;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT30rfa8JMia4RISIsW4kBsgYTFUYAwixOgFA&usqp=CAU');
     overflow-x: hidden;
 }
 
@@ -16,13 +16,13 @@ p{
 }
 
 h3{
-    font-family: 'Carter One', cursive;
+    /* font-family: 'Carter One', cursive; */
 }
 
 .thumbnails img:hover{
     opacity: 1;
-    transform:  rotate(20deg);
-    box-shadow: 0 0 7px rgba(0, 0, 0, .5)
+    transform: rotate3d(30deg);
+    /* box-shadow: 0 0 7px rgba(0, 0, 0, .5) */
 }
 
 .thumbnails:hover img{
@@ -39,7 +39,7 @@ h3{
 .tooltiptext {
     visibility: hidden;
     width: 140px;
-    background-color: #555;
+    /* background-color: #555; */
     color: #fff;
     text-align: center;
     border-radius: 6px;
@@ -61,7 +61,7 @@ h3{
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: #555 transparent transparent transparent;
+    /* border-color: #555 transparent transparent transparent; */
   }
   
   .tooltip:hover .tooltiptext {
