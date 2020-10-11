@@ -6,8 +6,9 @@ h1{
     color: white;
 }
 body{
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT30rfa8JMia4RISIsW4kBsgYTFUYAwixOgFA&usqp=CAU');
+    background-image: url('https://live.staticflickr.com/3677/14078163420_bb26f684b7_b.jpg');
     overflow-x: hidden;
+    /* background-repeat: no-repeat; */
 }
 
 p{
