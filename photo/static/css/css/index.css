@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
+h1{
+    font-family: 'Merienda One', cursive;
+    color: white;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+p{
+    font-family: 'Tangerine', cursive;
+    font-size: 3rem;
+}
+
+h3{
+    font-family: 'Carter One', cursive;
+}
+
+.thumbnails img:hover{
+    opacity: 1;
+    transform:  rotate(20deg);
+    box-shadow: 0 0 7px rgba(0, 0, 0, .5)
+}
+
+.thumbnails:hover img{
+   
+    opacity: .6;
+    transform: scale(.92)
+}
+
+.thumbnails img{
+    transition: all .6s ease-in-out;
+}
+
+
+.tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+   .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .footer{
+      display: flex;
+      justify-content: space-around
+      
+  }
+
+.icons{
+    display: flex;
+    justify-content: space-between
+}
+
+#about{
+    border-left-style: double;
+    border-left-color: red;
+    border-left-width: thick;
+}
+
+#more,li{
+    color: white;
+    list-style-type: none;
+}
+
+#more li {
+    font-size: 2rem;
+}
+
+#more p {
+    font-size: 4rem;
+}

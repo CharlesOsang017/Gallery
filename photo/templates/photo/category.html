@@ -1,0 +1,41 @@
+{% include 'photo/base.html' %}
+<section id="gallery">
+  {% block content %}
+  <div class="row container content">
+        <div class="row">
+                {% if images%}
+                  <h2>Found {{ images|length }} of searched term {{message}}</h2>
+                {% else %}
+                  <h2> Found 0 images for the search term {{message}}</h2>
+                {% endif %}
+            
+              </div>
+    {% for image in images %}
+      <div class="col-md-4 mt-5">
+          <img src="{{image.image.url}}" class="image-responsive w-100 img-thumbnail btn-outline-info" data-toggle="modal" data-target="#{{image.id}}" alt="image">
+      </div>
+    
+        <!-- Modal -->
+        <div class="modal fade" id="{{image.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <h2 class="modal-title" id="title">{{image.name}}</h2>
+                <img src="{{image.image.url}}" class="image-responsive w-100 btn btn-outline-info" alt="image">
+                <h3 class="text-center">{{image.title}}</h3>
+                <p class="">{{image.description}}</p>
+                <p>Location taken ~ {{image.location}}</p>
+                <p>Category ~ {{image.category}}</p>
+                <p>Posted on {{image.posted_date}}</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    {% endfor %}
+  </div>
+
+  {% endblock %}
+</section>
