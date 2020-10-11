@@ -17,24 +17,21 @@ p{
     font-size: 3rem;
 }
 
-h3{
-    /* font-family: 'Carter One', cursive; */
-}
 
 .thumbnails img:hover{
     opacity: 1;
-    transform: rotate3d(30deg);
+    /* transform: rotate3d(30deg); */
     /* box-shadow: 0 0 7px rgba(0, 0, 0, .5) */
 }
 
 .thumbnails:hover img{
    
     opacity: .6;
-    transform: scale(.92)
-}
-
+    /* transform: scale(.92) */
+    -webkit-filter: sepia(0);
+	filter: sepia(0);
 .thumbnails img{
-    transition: all .6s ease-in-out;
+    transition: all .6s ease-in;
 }
 
 
