@@ -76,11 +76,6 @@ class Location(models.Model):
         '''
         self.save()
 
-    # def delete_location(self):
-    #     '''
-    #     Method to delete location
-    #     '''
-    #     self.delete()
     @classmethod
     def delete_location(cls,location):
         cls.objects.filter(location=location).delete()
