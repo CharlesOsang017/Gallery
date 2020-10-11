@@ -6,9 +6,10 @@ h1{
     color: white;
 }
 body{
-    background-image: url('https://live.staticflickr.com/3677/14078163420_bb26f684b7_b.jpg');
+    background-image: url('https://assets.londonist.com/uploads/2020/03/i875/jennifer_steinkamp__blind_eye__1__2018__at_among_the_trees__hayward_gallery__2020-_-_jennifer_steinkamp_2020-_courtesy_of_hayward_gallery-_photo_linda_nylind.jpg');
     overflow-x: hidden;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 p{

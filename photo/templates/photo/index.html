@@ -4,7 +4,7 @@
     <div class="overlay">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h1 class="text-white text-center intro">THE GALLERY</h1>
+          <h1 class="text-white text-center intro">VANITY GALLERY</h1>
          <hr>
       </div>
     </div>
@@ -31,7 +31,10 @@
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-body">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">X</button>
+
                 <h3 class="modal-title text-center" id="title">{{image.title}}</h3>
+
                 <a href="{% url 'view_image' image.id %}"><img src="{{image.image.url}}" class="img-responsive w-100 btn btn-outline-info" alt="image"></a>
                
                 <p class="text-center">{{image.description}}</p>
@@ -40,11 +43,10 @@
                 <p>Posted on :{{image.posted_date}}</p>
               </div>
               <div class="modal-footer">
-                  <input type="text" value="{{image.image.url}}" id="copy" style="width:250px" class="form-control">
+                  <button type="text" value="{{image.image.url}}" id="copy" type="button" ="width:250px" class="form-control">Copy Link</button>
                   <!-- <div class="">
                   <button  class="btn btn-primary" onclick="CopyLink()" onmouseout="outFunc()"><span class="tooltiptext" id="myTooltip">Copy to clipboard</span>Copy link</button> 
                   </div> -->
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
