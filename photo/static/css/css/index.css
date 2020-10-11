@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Merienda+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Merienda+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Tangerine&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap'); */
 h1{
     /* font-family: 'Merienda One', cursive; */
     color: white;
@@ -86,6 +86,10 @@ h3{
     border-left-style: double;
     border-left-color: red;
     border-left-width: thick;
+    background-image: url('https://assets.londonist.com/uploads/2020/03/i875/jennifer_steinkamp__blind_eye__1__2018__at_among_the_trees__hayward_gallery__2020-_-_jennifer_steinkamp_2020-_courtesy_of_hayward_gallery-_photo_linda_nylind.jpg');
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover
 }
 
 #more,li{
