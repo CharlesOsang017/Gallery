@@ -3,7 +3,7 @@
       <div class="navbar-header">
         <a class="navbar-brand" >Vanity Gallery </a>
         <a class="navbar-brand" href="/">Home </a>
-        <a class="navbar-brand" href="{% url 'about' %}">About </a>
+        <a class="navbar-brand" href="{% url 'about' %}">About Us</a>
         {% for category in categories %}
         <a class="navbar-brand" href="{% url 'category' category.id %}">
           <p>{{category.category}}</p>

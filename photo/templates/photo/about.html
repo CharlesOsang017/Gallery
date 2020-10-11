@@ -1,6 +1,42 @@
 {% include 'photo/base.html' %}
 <section id="more" class="bg-primary">
   {% block content %}
+  <div class="row"> 
+    <div class="col-md-3">    
+ <div class="card">
+   <div class="card-body">
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6gn4-APRuOyEkg1NxFz5sLzyLq1WkGiQGNg&usqp=CAU" >
+     <h5>Margic Wall Gallery</h5>
+   </div>
+ </div>
+</div>
+<div class="col-md-3">
+ <div class="card">
+  <div class="card-body">
+    <img src="https://i1.wp.com/webeenow.com/wp-content/uploads/2020/06/Do-you-want-to-know-who-saw-your-WhatsApp-profile.jpg?resize=696%2C696&ssl=1" height="240px" width="auto">
+    <h5>Founder-Vanity Gallery </h5>
+  </div>
+</div> 
+</div>
+<div class="col-md-3">
+<div class="card">
+  <div class="card-body">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSu1uxHeeEhJrEHB2DJpw2WupMaBelgRL4yvA&usqp=CAU" height="240"  width="auto">
+    <h5>CEO-Vanity Gallery</h5>
+  </div>
+</div>
+</div>
+<div class="col-md-3">
+  <div class="card">
+    <div class="card-body">
+      <img src="https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-3.png" height="200">
+      <h5>Chief-Executive-Vanity-Gallery</h5>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+
   <h1>Testimonials</h1>
 
 <div class="content-slider">
@@ -306,8 +342,12 @@ h1 {
     z-index: 0;
   }
 }
+#more{
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6gn4-APRuOyEkg1NxFz5sLzyLq1WkGiQGNg&usqp=CAU'); */
+  background-repeat: no-repeat;
+}
         </style>
-  <!-- <div class="container">
+   <!-- <div class="container">
       <div class="row text-center">
           <div id="about" class="col-md-8 mx-auto">
             <h1>About The Gallery</h1>
@@ -335,7 +375,7 @@ h1 {
             </ul>
           </div>
       </div>
-  </div> -->
+  </div>  */ -->
 
   {% endblock %}
 </section>
