@@ -1,4 +1,6 @@
 # VANITY GALLERY
+## Author
+* Made with love by,   [![Charles: Osango](https://img.shields.io/badge/Charles-Osango-yellow.svg)](Charles/Osango)
 ## Description
 * Vanity Gallery is a website that stores your photo and protects it. The website allows you to add photos with their description and place taken in the admin Panel
 ## Setup/Installation requirements
@@ -8,7 +10,7 @@
 4. Download the Dependencies
 4. Run python3 manage.py runserver to run the app
 
-5. Behavior Driven Development (BDD)
+## Behavior Driven Development (BDD)
 
 | Behaviuor | Input | Output |
 | --------------- | --------------- | --------------- |
@@ -24,7 +26,6 @@
 * POSTGRESS
 * CSS3
 
-License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](license/MIT)
 
 Copyrite (c) 2020 Charles Osango
