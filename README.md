@@ -9,12 +9,13 @@
 4. Run python3 manage.py runserver to run the app
 
 5. Behavior Driven Development (BDD)
-| Behaviuor  | Input  | Output |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+| Behaviuor | Input | Output |
 
+| --------------- | --------------- | --------------- |
+
+| Fade in/out | Hover on image | fade in/out  |
+
+| Search       | Most astonishing site, Mountain, Football | Desplays images related to the search |
 
 ## Technologies Used
 * PYTHON
